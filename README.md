@@ -24,12 +24,18 @@ This experience has allowed me to discover what happens under the hood of framew
 To install Sonko via npm:
 
 ```bash
-npm install sonko
+npm install sonko```
 
 Or clone this repository:
+```bash
 git clone https://github.com/Mirak29/sonko.git
+```
+```bash
 cd sonko
+```
+```bash
 npm install
+```
 
 ## Features
 - createElement(type, props, ...children): Creates a VDOM element.
