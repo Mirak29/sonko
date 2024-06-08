@@ -6,9 +6,8 @@ Welcome to **Sonko**, a mini JavaScript framework using Virtual DOM. This projec
 
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Project Structure](#project-structure)
-4. [Features](#features)
-5. [Conclusion](#conclusion)
+3. [Features](#features)
+4. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -26,3 +25,16 @@ To install Sonko via npm:
 
 ```bash
 npm install sonko
+
+Or clone this repository:
+git clone https://github.com/Mirak29/sonko.git
+cd sonko
+npm install
+
+## Features
+- createElement(type, props, ...children): Creates a VDOM element.
+- render(vdom, container): Renders the VDOM to the real DOM.
+- Component: Base class to create components
+
+## Conclusion
+This project allowed me to delve into the internal mechanics of modern frameworks, giving me the confidence to easily master any JavaScript framework or library.
